@@ -1,0 +1,20 @@
+.ratings {
+  display: inline-flex;
+  border: 0;
+}
+
+.ratings .rating {
+  padding: 5px;
+  border: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.ratings .rating svg.star-icon {
+  width: 50px;
+}
+
+.ratings .rating svg.star-icon:hover,
+.ratings .rating svg.star-icon.active {
+  fill: #ff0;
+}
