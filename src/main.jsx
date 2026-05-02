@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import StarRatings from './StarRatings.jsx';
+import App from './App';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <StarRatings />
+    <App />
   </StrictMode>,
 );

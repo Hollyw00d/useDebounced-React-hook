@@ -1,20 +1,20 @@
-.ratings {
-  display: inline-flex;
-  border: 0;
+code {
+  background-color: #D3D3D3;
+  padding: 0 5px;
 }
 
-.ratings .rating {
-  padding: 5px;
-  border: 0;
-  background-color: transparent;
-  border-radius: 0;
+.mt-0 {
+  margin-top: 0 !important;
 }
 
-.ratings .rating svg.star-icon {
-  width: 50px;
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 
-.ratings .rating svg.star-icon:hover,
-.ratings .rating svg.star-icon.active {
-  fill: #ff0;
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
 }
